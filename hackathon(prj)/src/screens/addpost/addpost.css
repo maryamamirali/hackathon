@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+/*for description */
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400..700&display=swap');
+
+
+
+/*for title*/
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    font-family: "Fredoka", sans-serif;
+  
+  }
+  
+.addpost{
+  background-color: white;
+  padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .label{
+    display: block;
+    margin-bottom: 5px;
+  margin-right: 270px;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  
+  .input input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 9px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .input input:focus {
+    border-color: #3faaec;
+    outline: none;
+    box-shadow: 0 0 5px #a8e4e1;
+  }
+  
+  .addpost-button{
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    background-color: #5599cd;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 12px;
+  }
+  
+  .addpost-button:hover {
+    background: linear-gradient(45deg, #2088ab, #3faaec);
+  }
+  .addpost-h1{
+    text-align: center;
+  }
+  
+
+  .img-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #7cbdcf;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .img-btn:hover {
+    background: linear-gradient(45deg, #6ba6ba, #6399bb);
+  }
+  
+
+

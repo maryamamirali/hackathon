@@ -1,0 +1,117 @@
+.emailimg{
+    border-radius: 52%;
+}
+
+.new-message-form {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .new-message-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    color: #333;
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .send-button {
+    border: none;
+    outline: none;
+    background: #3b5998;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .chat-app {
+    display: flex;
+    flex-direction: column;
+    height:96vh;
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+  }
+  
+  .chat-header {
+    background-color: #5599cd;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+  .chat-container {
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px;
+    background-color: #eaeaea;
+  }
+  
+  .chat-bubble {
+    max-width: 70%;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    word-wrap: break-word;
+  }
+  
+  .chat-bubble.sent {
+    align-self: flex-end;
+    background-color: #d1f0ff;
+  }
+  
+  .chat-bubble.received {
+    align-self: flex-start;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+  }
+  
+  .chat-user {
+    font-size: 0.75rem;
+    color: gray;
+  }
+  
+  .chat-text {
+    margin: 5px 0 0;
+  }
+  
+  .new-message-form {
+    display: flex;
+    padding: 10px;
+    background-color: white;
+    border-top: 1px solid #ddd;
+  }
+  
+  .new-message-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 1rem;
+    outline: none;
+  }
+  
+  .new-message-input:focus {
+    background: linear-gradient(45deg, #dce0e1, #d5dade);
+  }
+  
+  .send-button {
+    margin-left: 10px;
+    padding: 10px 15px;
+    background-color: #5599cd;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .send-button:hover {
+    background: linear-gradient(45deg, #2088ab, #3faaec);
+  }
+  
+
+  

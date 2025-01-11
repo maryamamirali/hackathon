@@ -1,0 +1,122 @@
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 400px;
+  padding: 30px;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 15px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #B2B2FF, #6868d4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  box-shadow: 0 5px 15px #B2B2FF;
+}
+
+.avatar img {
+  width: 80%;
+  border-radius: 50%;
+}
+
+h2 {
+  margin: 10px 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.welcome-text {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  margin-bottom: 15px;
+}
+
+.input-field input {
+  width: 90%;
+  padding: 12px 15px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  background: #f9f9f9;
+  box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.05);
+  transition: 0.3s ease-in-out;
+}
+
+.input-field input:focus {
+  border-color: #4f4fe6;
+  outline: none;
+  background: #ffffff;
+  box-shadow: 0 0 8px #B2B2FF;
+}
+
+.btn {
+  width: 70%;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 25px;
+  background: linear-gradient(90deg, #0000C9, #B2B2FF);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(255, 117, 140, 0.4);
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background: linear-gradient(90deg, #5757d0, #b2b2db);
+  box-shadow: 0 8px 20px rgba(255, 117, 140, 0.6);
+}
+
+.extras {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #666;
+}
+
+.extras a {
+  text-decoration: none;
+  color: #B2B2FF;
+  font-weight: bold;
+}
+
+.extras span {
+  margin: 0 10px;
+  color: #aaa;
+}
+
+.extras a:hover {
+  text-decoration: underline;
+}
